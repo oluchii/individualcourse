@@ -139,8 +139,8 @@
         }
 
         .panel-title {
-            font-size: 25px;
-            background: #DBCCD9;
+            font-size: 20px;
+            font-weight: bold;
         }
 
         .panel-title>a {
@@ -155,23 +155,14 @@
             color: #fff;
         }
 
-        .panel-default>.panel-heading+.panel-collapse>.panel-body {
-            /* border: solid 1px #EEEEEE; */
-            /* background: rgba(129, 22, 124, 0.05); */
-        }
-
-        .course-acc {
-            background: rgba(129, 22, 124, 0.05);
-        }
-
         .panel-group .panel {
             border: none;
             -webkit-box-shadow: none;
         }
 
         .exp-tt {
-            font-size: 16px;
-            padding-top: 60px;
+            font-size: 18px;
+            padding-top: 70px;
             padding-bottom: 30px;
         }
 
@@ -183,11 +174,7 @@
             margin: 20px 0 40px 0;
             font-weight: bold;
         }
-
-        .panel-title {
-            font-weight: bold;
-        }
-
+        
         .panel-body ul {
             padding-inline-start: 10px;
         }
@@ -195,7 +182,7 @@
         .panel-body li {
             list-style-type: none;
             padding: 7px 0;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+            border-bottom: 1px solid rgba(168, 157, 157, 0.2);
             font-size: 16px;
         }
 
@@ -240,175 +227,20 @@
             background-color: rgba(129, 22, 124, 0.05)
         }
         
+        .section2 {
+            background: #fcfcfc;
+        }
         
-        /* 
-        ##Device = Desktops
-        ##Screen = 1281px to higher resolution desktops
-        */
-
-        @media (min-width: 1281px) {
-  
-        .media-body p {
-            font-size: 18px;
-            text-align: left;
-        }
-
-        .mt-0 {
-            font-size: 20px;
-            text-align: left;
-            font-weight: bold;
-        }
-
-        .text1 {
-            padding-top: 40px;
-            text-align: center;
-        }
-
-        .text1 h3 {
+        .my-3{
             font-weight: bolder;
-            font-size: 22px;
-        }
-
-        img.align-self-start.mr-3 {
-            margin-right: 8% !important;
-            background-color: #44CF6C;
-            border-radius: 50%;
-            padding: 18px;
-        }
-
-        .media {
-            padding: 30px;
-        }
-
-        .section1 {
-            background-color: rgba(129, 22, 124, 0.05)
-        }        
-     }
-
-        /* 
-        ##Device = Laptops, Desktops
-        ##Screen = B/w 1025px to 1280px
-        */
-
-        @media (min-width: 1025px) and (max-width: 1280px) {
-        
-        .media-body p {
-            font-size: 18px;
-            text-align: left;
-        }
-
-        .mt-0 {
-            font-size: 20px;
-            text-align: left;
-            font-weight: bold;
-        }
-
-        .text1 {
-            padding-top: 40px;
-            text-align: center;
-        }
-
-        .text1 h3 {
-            font-weight: bolder;
-            font-size: 22px;
-        }
-
-        img.align-self-start.mr-3 {
-            margin-right: 8% !important;
-            background-color: #44CF6C;
-            border-radius: 50%;
-            padding: 18px;
-        }
-
-        .media {
-            padding: 30px;
-        }
-
-        .section1 {
-            background-color: rgba(129, 22, 124, 0.05)
-        }        
-    }
-
-        /* 
-        ##Device = Tablets, Ipads (portrait)
-        ##Screen = B/w 768px to 1024px
-        */
-
-        @media (min-width: 768px) and (max-width: 1024px) {
-        
-        .media-body p {
-            font-size: 18px;
-            text-align: left;
-        }
-
-        .mt-0 {
-            font-size: 20px;
-            text-align: left;
-            font-weight: bold;
-        }
-
-        .text1 {
-            padding-top: 30px;
-            text-align: center;
-        }
-
-        .text1 h3 {
-            font-weight: bolder;
-            font-size: 20px;
-        }
-
-        img.align-self-start.mr-3 {
-            margin-right: 6% !important;
-            background-color: #44CF6C;
-            border-radius: 50%;
-            padding: 15px;
-        }
-
-        .media {
-            padding: 20px;
-        }
-
-        .section1 {
-            background-color: rgba(129, 22, 124, 0.05)
-        }
-        
-        }
-
-        /* 
-        ##Device = Tablets, Ipads (landscape)
-        ##Screen = B/w 768px to 1024px
-        */
-
-        @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-        
-        
-        }
-
-        /* 
-        ##Device = Low Resolution Tablets, Mobiles (Landscape)
-        ##Screen = B/w 481px to 767px
-        */
-
-        @media (min-width: 481px) and (max-width: 767px) {
-        
-        
-        }
-
-        /* 
-        ##Device = Most of the Smartphones Mobiles (Portrait)
-        ##Screen = B/w 320px to 479px
-        */
-
-        @media (min-width: 320px) and (max-width: 480px) {
-        
-        
+            padding-bottom: 40px;
         }
 
     </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-custom bg-custom">
+    <nav class="navbar navbar-expand-md navbar-custom bg-custom">
         <div class="container pt-2 pb-2">
             <a href="index.html" class="navbar-brand"><img
                     src="https://res.cloudinary.com/sgnolebagabriel/image/upload/v1570873250/startng/Logo_1_ib5bjh.png"
@@ -475,13 +307,51 @@
         </div>
     </div>
 
+    <section class="section3">
+
     <div class="container pb-5 pt-5">
-        <img class="img-fluid mt-5 mb-5"
-            src="https://res.cloudinary.com/sgnolebagabriel/image/upload/v1570965540/startng/Group_423_s3a4ez.png">
-    </div>
-    <div class="contaner-fluid">
-        <img class="img-fluid"
-            src="https://res.cloudinary.com/sgnolebagabriel/image/upload/v1570965650/startng/Group_372_ywrzu3.png">
+        <h3 class="text-center my-3">What You Will Learn</h3>
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p style="padding: 10px"><img src="https://img.icons8.com/material-outlined/20/000000/checked.png">&nbsp; &nbsp; &nbsp; UserFlow, User Journey using Flow Map</p>
+                    <hr style="width: 90%" />
+                </div>
+            <div class="col-lg-6">
+                    <p style="padding: 10px"><img src="https://img.icons8.com/material-outlined/20/000000/checked.png">&nbsp; &nbsp; &nbsp; Wire-frames (Low-Fidelity & High Fidelity)</p>
+                    <hr style="width: 90%" />
+                </div> 
+                <div class="col-lg-6">
+                    <p style="padding: 10px"><img src="https://img.icons8.com/material-outlined/20/000000/checked.png">&nbsp; &nbsp; &nbsp; User Research, Ideation</p>
+                    <hr style="width: 90%" />
+                </div> 
+                <div class="col-lg-6">
+                    <p style="padding: 10px"><img src="https://img.icons8.com/material-outlined/20/000000/checked.png">&nbsp; &nbsp; &nbsp; Mobile Interface (IOS, Android)</p>
+                    <hr style="width: 90%" />
+                </div>
+                <div class="col-lg-6">
+                    <p style="padding: 10px"><img src="https://img.icons8.com/material-outlined/20/000000/checked.png">&nbsp; &nbsp; &nbsp; Interactive Design</p>
+                    <hr style="width: 90%" />
+                </div> 
+                <div class="col-lg-6">
+                    <p style="padding: 10px"><img src="https://img.icons8.com/material-outlined/20/000000/checked.png">&nbsp; &nbsp; &nbsp; IOS Design Guidelines</p>
+                    <hr style="width: 90%" />
+                </div> 
+                <div class="col-lg-6">
+                    <p style="padding: 10px"><img src="https://img.icons8.com/material-outlined/20/000000/checked.png">&nbsp; &nbsp; &nbsp; Prototyping using Figma</p>
+                    <hr style="width: 90%" />
+                </div> 
+                <div class="col-lg-6">
+                    <p style="padding: 10px"><img src="https://img.icons8.com/material-outlined/20/000000/checked.png">&nbsp; &nbsp; &nbsp; Material Design Guidelines</p>
+                    <hr style="width: 90%" />
+                </div> 
+            </div>        
+        </div>
+    </div>       
+</section>
+        
+    <div class="container-fluid">
+        <img class="img-fluid" src="https://res.cloudinary.com/sgnolebagabriel/image/upload/v1570965650/startng/Group_372_ywrzu3.png">
     </div>
 
     <section class="section1">
@@ -915,7 +785,7 @@
         </div>
     </section>
 
-    <section>
+    <section class="section2">
         <div class="text1">
             <h3>On Start.ng, you are privileged to </h3>
         </div>
